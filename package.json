@@ -1,0 +1,26 @@
+{
+  "name": "graphjson",
+  "version": "1.0.0",
+  "description": "Graphql-like but tiny and with json ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsifalda/graphjson.git"
+  },
+  "keywords": [
+    "graphql",
+    "json",
+    "tiny",
+    "api",
+    "data"
+  ],
+  "author": "sifalda.jiri@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsifalda/graphjson/issues"
+  },
+  "homepage": "https://github.com/jsifalda/graphjson#readme"
+}
