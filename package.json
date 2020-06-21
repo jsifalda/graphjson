@@ -1,5 +1,5 @@
 {
-  "name": "graphjson",
+  "name": "gjson",
   "version": "1.0.0",
   "description": "Graphql-like but tiny and with json ",
   "main": "src/index.js",
