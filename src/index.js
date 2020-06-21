@@ -25,8 +25,9 @@ const middleware = (resolvers = {}, context) => {
       } catch (e) {
         console.warn('Resolver error:', e)
 
-        res.json({
+        res.status(e.errorCode || 400).json({
           error: {
+            code: e.errorCode,
             type: e.type,
             message: e.message
           }
